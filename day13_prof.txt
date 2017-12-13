@@ -1,0 +1,61 @@
+defaultdict(<class 'int'>, {0: 3, 1: 2, 2: 4, 4: 4, 6: 5, 8: 6, 76: 14, 10: 6, 12: 8, 66: 14, 14: 6, 16: 6, 18: 8, 20: 12, 78: 14, 22: 8, 24: 8, 68: 14, 26: 9, 28: 8, 30: 8, 32: 12, 80: 18, 34: 20, 36: 10, 70: 14, 38: 12, 40: 12, 64: 14, 42: 10, 44: 12, 82: 17, 46: 12, 48: 12, 72: 14, 50: 12, 52: 12, 54: 14, 56: 14, 84: 14, 58: 12, 74: 14, 62: 14}) 84
+State(me=84, scanners=[(1,True), (1,True), (1,True), (-1,False), (1,True), (-1,False), (3,False), (-1,False), (5,True), (-1,False), (5,True), (-1,False), (1,True), (-1,False), (5,True), (-1,False), (5,True), (-1,False), (1,True), (-1,False), (3,False), (-1,False), (1,True), (-1,False), (1,True), (-1,False), (5,True), (-1,False), (1,True), (-1,False), (1,True), (-1,False), (3,False), (-1,False), (9,True), (-1,False), (5,False), (-1,False), (3,False), (-1,False), (3,False), (-1,False), (5,False), (-1,False), (3,False), (-1,False), (3,False), (-1,False), (3,False), (-1,False), (3,False), (-1,False), (3,False), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (3,False), (-1,False), (-1,False), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (7,True), (-1,False), (17,True), (-1,False), (11,False), (-1,False), (7,True)], severity=2264, caught=True)
+         11703 function calls (11702 primitive calls) in 0.009 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:996(_handle_fromlist)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+       86    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        1    0.000    0.000    0.000    0.000 <string>:31(__repr__)
+        1    0.000    0.000    0.000    0.000 <string>:5(State)
+        1    0.000    0.000    0.001    0.001 __init__.py:340(namedtuple)
+        5    0.000    0.000    0.000    0.000 __init__.py:403(<genexpr>)
+        5    0.000    0.000    0.000    0.000 __init__.py:405(<genexpr>)
+        1    0.000    0.000    0.000    0.000 _bootlocale.py:11(getpreferredencoding)
+        1    0.000    0.000    0.000    0.000 codecs.py:259(__init__)
+        6    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+        1    0.000    0.000    0.009    0.009 day13.py:1(<module>)
+       85    0.002    0.000    0.007    0.000 day13.py:101(<listcomp>)
+        1    0.000    0.000    0.007    0.007 day13.py:105(run)
+        1    0.000    0.000    0.000    0.000 day13.py:20(Scanner)
+     3740    0.001    0.000    0.001    0.000 day13.py:21(__init__)
+       85    0.000    0.000    0.000    0.000 day13.py:25(__repr__)
+       85    0.000    0.000    0.000    0.000 day13.py:58(scanner_at)
+     7225    0.004    0.000    0.005    0.000 day13.py:64(move_scanner)
+        1    0.000    0.000    0.000    0.000 day13.py:82(<listcomp>)
+       86    0.000    0.000    0.000    0.000 day13.py:86(at_end)
+       85    0.000    0.000    0.007    0.000 day13.py:93(move_right)
+       86    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x000000006C8DCBA0}
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        6    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+      2/1    0.001    0.000    0.009    0.009 {built-in method builtins.exec}
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.exit}
+        5    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        4    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        9    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       43    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'splitlines' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
